@@ -1,0 +1,51 @@
+
+/* ----------------- Footer --------------------- */
+@import url('../css/fonts.css');
+:root{
+
+  
+    --bg-color: #0f0f0f;
+    --white: #ffffff;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;    
+    flex-wrap: wrap;
+}
+.containerr{
+    margin: 0 5vw;
+    color: white;
+    font-size: 16px;
+}
+footer.footer{
+    height: 100%;
+    background: var(--bg-color);
+    position: relative;
+}
+footer.footer .containerr{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+footer.footer .instagram div > img{
+    display: inline-block;
+    width: 25%;
+    height: 50%;
+    margin: .3rem .4rem;
+}
+footer.footer .rights{
+    justify-content: center;
+   }
+footer.footer .rights h4 a{
+   color: var(--white);
+}
+
+/* ---------x------- Footer ----------x---------- */
+
+
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+body{
+  background-image: url('c.jfif');
+  background-size: cover;
+  background-position: center;
+}
+img{
+  border: 1px solid white;
+  margin-right: 12px;
+  margin-bottom: 10px;
+}
+.head h1{
+  color: white;
+  font-size: 45px;
+  padding-right: 90px;
+  border-bottom: 1px solid white;
+}
+.head h2{
+  color: black;
+  font-size: 30px;
+  padding-right: 90px;
+}
+.about{
+   color: black;
+  font-family: verdana;
+}
+
+.content-footer p{
+   
+  font-size: 25px;
+  padding-right: 90px;
+   border-bottom: 1px solid white;
+}
+.content-footer ul li {
+  float: left;
+  list-style-type: none;
+  padding: 0 15px;
+padding-bottom: 20px;
+border: 1px solid white;
+margin: 7px;
+background-color: white;
+margin-bottom: 10px;
+}
